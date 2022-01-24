@@ -1,10 +1,10 @@
 <h1 align='center'><strong>Cua Lột Online 🦀<strong></h1>
 
-## <strong><p align='center'>🏆 Nơi quy tụ các anh tài khắp mọi miền tổ quốc 🏆</p></strong>
+### <strong><p align='center'>🏆 Nơi quy tụ các anh tài khắp mọi miền tổ quốc 🏆</p></strong>
 
 <br />
 
-## <strong align='center'>Đua TOP ngay ️👉 https://gourd-crab-shrimp-fish.vercel.app/</strong>
+### <strong align='center'>Đua TOP ngay ️👉 https://gourd-crab-shrimp-fish.vercel.app/</strong>
 
 ---
 

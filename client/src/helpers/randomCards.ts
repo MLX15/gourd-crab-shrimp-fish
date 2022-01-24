@@ -9,6 +9,12 @@ import penguin from '../assets/images/penguin.png';
 import turtle from '../assets/images/turtle.png';
 import donkey from '../assets/images/donkey.png';
 import sheep from '../assets/images/sheep.png';
+import bullDog from '../assets/images/bull-dog.png';
+import cow from '../assets/images/cow.png';
+import crabGlass from '../assets/images/crab-glass.png';
+import fish from '../assets/images/fish.png';
+import puffer from '../assets/images/puffer.png';
+import squid from '../assets/images/squid.png';
 import hmm from '../assets/images/hmm.png';
 
 const cards: Card[] = [
@@ -19,6 +25,12 @@ const cards: Card[] = [
   { photo: turtle, score: 100, label: 'turtle' },
   { photo: donkey, score: 100, label: 'donkey' },
   { photo: sheep, score: 100, label: 'sheep' },
+  { photo: bullDog, score: 100, label: 'bullDog' },
+  { photo: cow, score: 100, label: 'cow' },
+  { photo: crabGlass, score: 100, label: 'crabGlass' },
+  { photo: fish, score: 100, label: 'fish' },
+  { photo: puffer, score: 100, label: 'puffer' },
+  { photo: squid, score: 100, label: 'squid' },
   { photo: hmm, score: 400, label: 'hmm' },
 ];
 
