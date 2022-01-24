@@ -2,7 +2,6 @@ const { Server } = require('socket.io');
 const express = require('express');
 const http = require('http');
 
-const { CLIENT_URL } = require('./constants');
 const playersHandler = require('./handlers/playersHandler');
 
 const app = express();
@@ -11,7 +10,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: ['*'],
+    origin: 'https://gourd-crab-shrimp-fish.vercel.app/',
     methods: ['GET', 'POST'],
     credentials: true,
   },

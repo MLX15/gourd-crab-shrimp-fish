@@ -11,7 +11,7 @@ import { Socket } from 'socket.io-client';
 // enums
 import { PlayerActions } from 'app/actions/players';
 
-import { socketUrl } from 'constants/api';
+import { SOCKET_URL } from 'constants/api';
 import playersReducer from 'app/reducers/playersReducer';
 
 const initialState = {
@@ -45,10 +45,10 @@ function PlayersProvider({ children }: { children: React.ReactNode }) {
   };
 
   useEffect(() => {
-    if (!isAuthenticated || !socketUrl) return;
+    if (!isAuthenticated || !SOCKET_URL) return;
 
     setSocket(
-      io(socketUrl, {
+      io(SOCKET_URL, {
         withCredentials: true,
       }),
     );

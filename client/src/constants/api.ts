@@ -1,1 +1,1 @@
-export const socketUrl = process.env.REACT_APP_SOCKET_URL;
+export const SOCKET_URL = process.env.REACT_APP_SOCKET_URL;
