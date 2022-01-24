@@ -2,6 +2,7 @@ const { Server } = require('socket.io');
 const express = require('express');
 const http = require('http');
 
+const { CLIENT_URL } = require('./constants');
 const playersHandler = require('./handlers/playersHandler');
 
 const app = express();
@@ -10,7 +11,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: ['http://localhost:3000'],
+    origin: [CLIENT_URL],
     methods: ['GET', 'POST'],
     credentials: true,
   },
