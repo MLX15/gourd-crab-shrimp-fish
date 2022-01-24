@@ -9,11 +9,7 @@ const app = express();
 // Socket configs
 const server = http.createServer(app);
 const io = new Server(server, {
-  cors: {
-    origin: 'https://gourd-crab-shrimp-fish.vercel.app/',
-    methods: ['GET', 'POST'],
-    credentials: true,
-  },
+  cors: false,
 });
 
 // Init port
