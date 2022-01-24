@@ -10,9 +10,8 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: 'https://gourd-crab-shrimp-fish.vercel.app/',
+    origin: 'https://gourd-crab-shrimp-fish.vercel.app',
     methods: ['GET', 'POST'],
-    allowedHeaders: ['my-custom-header'],
   },
 });
 
