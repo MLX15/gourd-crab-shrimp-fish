@@ -47,11 +47,7 @@ function PlayersProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     if (!isAuthenticated || !SOCKET_URL) return;
 
-    setSocket(
-      io(SOCKET_URL, {
-        withCredentials: true,
-      }),
-    );
+    setSocket(io(SOCKET_URL));
   }, [isAuthenticated]);
 
   useEffect(() => {
